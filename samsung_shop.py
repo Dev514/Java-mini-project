@@ -175,9 +175,4 @@ def check_sale():
     
         
 
-
-
-while True:
-    check_sale()
-    sleep_seconds = random.randint(60, 180)
-    time.sleep(sleep_seconds)
+check_sale()
