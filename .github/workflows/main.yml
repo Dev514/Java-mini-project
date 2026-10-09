@@ -19,5 +19,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Requests
+        run: |
+          pip install requests
+
       - name: Run Python Function
         run: python samsung_shop.py
